@@ -1,0 +1,9 @@
+name = "images"
+main = "src/index.ts"
+compatibility_date = "2023-02-21"
+workers_dev = true
+
+[[r2_buckets]]
+binding = 'BUCKET'
+bucket_name = 'images4tmr'
+preview_bucket_name = 'images'
